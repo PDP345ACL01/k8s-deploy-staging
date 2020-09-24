@@ -47,7 +47,7 @@ pipeline {
       }
     }
     
-    k8s-deploy-staging$
+    
     stage('DT Deploy Event') {
       steps {
         container("curl") {
